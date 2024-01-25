@@ -1,16 +1,16 @@
 # [Info]
 site_name: IMAUSEC # 左上角标题
-site_url: https://lscll6.github.io
+site_url: https://imauctf.github.io
 site_author: luosc
 site_description: IMAU-SEC
 
 # [Navigtion]
 nav:
   - Home: front_page/index.md
-  - 规章制度:
+  - 有关社团:
+      - 成员要求: rules/RightsAndObligations.md
       - 加入我们: rules/join.md
-      - 权力与义务: rules/RightsAndObligations.md
-  - 博客推荐:
+  - 资源分享:
     - BLOG/网安入门相关.md
     - BLOG/other.md
   - 通知:
@@ -48,9 +48,10 @@ theme:
 repo_url: https://github.com/lscll6/lscll6.github.io # 右上角点击跳转的链接
 repo_name: luosc.github.io # 右上角的名字
 ## [bottom-left corner]
-copyright: IMAU CC-BY-4.0 # 左下角的版权声明
+copyright:  Copyright © 2024 IMAUCTF  # 左下角的版权声明
 ## [bottom-right corner]
 extra:
+  generator: false  #删除页脚显示“使用 MkDocs 材料制造”
   social: # icons
     - icon: fontawesome/brands/github
       link: https://github.com/lscll6
