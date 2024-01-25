@@ -1,8 +1,8 @@
 # [Info]
 site_name: IMAUSEC # 左上角标题
 site_url: https://lscll6.github.io
-site_author: asdsad
-site_description: 111的个人网站
+site_author: luosc
+site_description: IMAU-SEC
 
 # [Navigtion]
 nav:
@@ -45,19 +45,16 @@ theme:
   icon:
     repo: fontawesome/brands/github
 ## [top-right corner]
-repo_url: https://github.com/Yang-Xijie/yang-xijie.github.io # 右上角点击跳转的链接
-repo_name: yang-xijie.github.io # 右上角的名字
+repo_url: https://github.com/lscll6/lscll6.github.io # 右上角点击跳转的链接
+repo_name: luosc.github.io # 右上角的名字
 ## [bottom-left corner]
-copyright: 杨希杰 CC-BY-4.0 # 左下角的版权声明
+copyright: IMAU CC-BY-4.0 # 左下角的版权声明
 ## [bottom-right corner]
 extra:
   social: # icons
-    - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/24502827
-      name: Bilibili | 杨希杰619 # 鼠标悬浮提示
     - icon: fontawesome/brands/github
-      link: https://github.com/Yang-Xijie
-      name: GitHub | Yang-Xijie
+      link: https://github.com/lscll6
+      name: GitHub | luosc
 
 # [Extensions]
 plugins:
