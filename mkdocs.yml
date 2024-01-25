@@ -84,10 +84,10 @@ markdown_extensions:
 extra_javascript:
   # 数学公式支持
   # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
-  - mkdocs/javascripts/katex.js
+  - /mkdocs/javascripts/katex.js
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
-  - mkdocs/css/no-footer.css # 不使用底部的翻页
-  - mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
+  - /mkdocs/css/no-footer.css # 不使用底部的翻页
+  - /mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
