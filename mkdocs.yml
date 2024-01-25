@@ -1,8 +1,8 @@
 # [Info]
 site_name: IMAUSEC # 左上角标题
 site_url: https://luosc03.github.io
-site_author: 杨希杰
-site_description: 杨希杰的个人网站
+site_author: 111
+site_description: 111的个人网站
 
 # [Navigtion]
 nav:
@@ -44,12 +44,11 @@ theme:
   language: zh # 一些提示性的文字会变成中文
   icon:
     repo: fontawesome/brands/github
-edit_uri: edit/main/docs # 编辑按钮跳转的链接
 ## [top-right corner]
-repo_url: https://github.com/luosc03/myproject # 右上角点击跳转的链接
-repo_name: luosc03.github.io # 右上角的名字
+repo_url: https://github.com/Yang-Xijie/yang-xijie.github.io # 右上角点击跳转的链接
+repo_name: yang-xijie.github.io # 右上角的名字
 ## [bottom-left corner]
-copyright: IMAU_SEC CC-BY-4.0 # 左下角的版权声明
+copyright: 杨希杰 CC-BY-4.0 # 左下角的版权声明
 ## [bottom-right corner]
 extra:
   social: # icons
@@ -59,6 +58,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Yang-Xijie
       name: GitHub | Yang-Xijie
+
 # [Extensions]
 plugins:
   - search: # 现在还不支持中文搜索 支持之后可以设置语言
@@ -84,10 +84,10 @@ markdown_extensions:
 extra_javascript:
   # 数学公式支持
   # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
-  - /mkdocs/javascripts/katex.js
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - mkdocs/javascripts/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
-  - /mkdocs/css/no-footer.css # 不使用底部的翻页
-  - /mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
+  - mkdocs/css/no-footer.css # 不使用底部的翻页
+  - mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
